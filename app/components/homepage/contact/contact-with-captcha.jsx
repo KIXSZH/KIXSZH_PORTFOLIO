@@ -66,7 +66,7 @@ function ContactWithCaptcha() {
 
   return (
     <div className="px-4 py-6 lg:px-8 lg:py-10">
-      <p className="font-medium mb-4 text-[#16f2b3] text-lg lg:text-xl uppercase">
+      <p className="font-roboto-mono font-medium mb-4 text-[#16f2b3] text-lg lg:text-xl uppercase">
         Contact with me
       </p>
       <div className="max-w-3xl mx-auto text-white rounded-lg border border-[#464c6a] p-4 lg:p-6">
