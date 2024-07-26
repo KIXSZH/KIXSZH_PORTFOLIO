@@ -1,0 +1,102 @@
+
+[
+    {
+      "title": "CS50 PYTHON COURSE",
+      "description": "Python course by Harvard University",
+      "cover_image": "/certificate/cs50p.jpg",
+      "published_at": "2024-03-15",
+      "url": "https://www.linkedin.com/posts/kixszh_cs50p-certificate-from-harvard-university-activity-7176263599517020160-x5oQ?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "MERN STACK DEVELOPMENT",
+      "description": "Web development course by UDEMY",
+      "cover_image": "/certificate/web.jpg",
+      "published_at": "2024-02-15",
+      "url": "https://www.udemy.com/certificate/UC-c30b5606-1c7f-4f24-93b8-1ed4d2e84607"
+    },
+    {
+      "title": "DATA STRUCTURES AND ALGORITHMS",
+      "description": "DS course in python by Linkedin learning",
+      "cover_image": "/certificate/DSA.jpg",
+      "published_at": "2024-04-1",
+      "url": "https://www.linkedin.com/posts/kixszh_certificate-of-completion-activity-7170025951328686081-ysv2?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "SALESFORCE DEVELOPER INTERN",
+      "description": "Virtual internship by salesforce",
+      "cover_image": "/certificate/sale.jpg",
+      "published_at": "2024-01-16",
+      "url": "https://www.linkedin.com/posts/kixszh_salesforce-intern-certificate-activity-7152992737204551680-V-lg?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "FOUNDATION FOR CYBERSECURITY",
+      "description": "Cybersecurity course by Google",
+      "cover_image": "/certificate/cyber.jpg",
+      "published_at": "2023-10-11",
+      "url": "https://www.linkedin.com/posts/kixszh_foundations-of-cybersecurity-activity-7117876589123563520-KEJ8?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "FOUNDATION FOR USER EXPERIENCE",
+      "description": "UX design course by Google",
+      "cover_image": "/certificate/ux.jpg",
+      "published_at": "2023-10-17",
+      "url": "https://www.linkedin.com/posts/kixszh_foundations-of-user-experience-ux-design-activity-7120071265897390080-F05i?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "DATA ANALYTICS SPECIALIZATON",
+      "description": "Data analytics specialization course by Google",
+      "cover_image": "/certificate/data.jpg",
+      "published_at": "2023-11-10",
+      "url": "https://www.linkedin.com/posts/kixszh_google-data-analytics-activity-7128779634254499841-kgoc?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "IBM INTERN",
+      "description": "Front end development internship by IBM",
+      "cover_image": "/certificate/IBM.jpg",
+      "published_at": "2023-07-24",
+      "url": "https://www.linkedin.com/posts/kixszh_internship-certificate-activity-7127284535871897600-7Ob2?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "PACKET TRACER",
+      "description": "Packet tracer simulation course by cicso",
+      "cover_image": "/certificate/packet_tracer.jpg",
+      "published_at": "2023-09-29",
+      "url": "https://www.linkedin.com/posts/kixszh_cicso-packet-tracer-badge-activity-7117806174376267776-iTMh?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "CYBERSECURITY ANLYST JOB SIMULATION",
+      "description": "IAM intern by TATA consultancy services ",
+      "cover_image": "/certificate/tcs.jpg",
+      "published_at": "2024-02-01",
+      "url": "https://www.linkedin.com/posts/kixszh_cybersecurity-analyst-activity-7158845394280488960-cSdz?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "PRODUCT DESIGN JOB SIMULATION",
+      "description": "Product design intern by Accenture",
+      "cover_image": "/certificate/accenture.jpg",
+      "published_at": "2023-01-29",
+      "url": "https://www.linkedin.com/posts/kixszh_forage-certificate-activity-7158035730223554560-pxjM?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "PYTHON ESSENTIALS 1",
+      "description": "Python course by CICSO Network academy",
+      "cover_image": "/certificate/python.jpg",
+      "published_at": "2024-04-14",
+      "url": "https://www.linkedin.com/posts/kixszh_python-essentials-1-activity-7196204953852387328-UHAi?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "PROMPT ENGINEERING FOR DEVELOPERS",
+      "description": "ChatGPT prompt engineering by DeeplearingAI",
+      "cover_image": "/certificate/prompt.jpg",
+      "published_at": "2024-5-15",
+      "url": "https://www.linkedin.com/posts/kixszh_chatgpt-openai-promptengineering-activity-7191448555570487297-z9hC?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "LINUX FUNDAMENTALS",
+      "description": "Practical learing for linux by Hack the box academy",
+      "cover_image": "/certificate/linux.jpg",
+      "published_at": "2023-10-12",
+      "url": "https://www.linkedin.com/posts/kixszh_awarded-the-badge-our-favorite-seabird-activity-7118256096292597761-65Jv?utm_source=share&utm_medium=member_desktop"
+    }
+  ]
+  
