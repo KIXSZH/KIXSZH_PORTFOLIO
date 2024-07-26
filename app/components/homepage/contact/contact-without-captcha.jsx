@@ -10,29 +10,41 @@ function ContactWithoutCaptcha() {
   });
   const [error, setError] = useState('');
 
-  const handleMailTo = () => {
+  const createMailToLink = () => {
     const { name, email, message } = userInput;
     if (!name || !email || !message) {
       setError('All fields are required.');
       return '';
     }
     setError('');
-    
-    // Encoding URI components to handle special characters
+
+    // Encode URI components for safe transmission
     const subject = encodeURIComponent(`Message from ${name}`);
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+    );
     return `mailto:kishorekumar150404@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleClick = (e) => {
-    const mailToLink = handleMailTo();
+    const mailToLink = createMailToLink();
     if (!mailToLink) {
       e.preventDefault();
-    } else {
-      // Open mailto link in a new tab if needed or set it directly
-      window.location.href = mailToLink;
-      e.preventDefault();
+      return;
     }
+
+    // For mobile devices, use `mailto` to open the default email app
+    // For laptops, use Gmail's web URL with prefilled data
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    if (/mobile/i.test(userAgent)) {
+      window.location.href = mailToLink;
+    } else {
+      // On laptops, open Gmail's website with prefilled data
+      const { name, email, message } = userInput;
+      const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=kishorekumar150404@gmail.com&su=${encodeURIComponent(`Message from ${name}`)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)}`;
+      window.location.href = gmailLink;
+    }
+    e.preventDefault();
   };
 
   return (
