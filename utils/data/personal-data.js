@@ -2,7 +2,7 @@ export const personalData = {
   name: "KISHOREKUMAR A",
   profile: '/profile.jpg',
   designation: "leveraging technology",
-  description: "My name is Kishorekumar A. As a dedicated and enthusiastic programmer, I'm driven by a passion for technology and a love for self-directed learning. I excel in mastering new technologies and solving complex problems. With a broad interest in web application development, I am committed to making the web more accessible. I am open to job opportunities that align with my skills and interests.",
+  description: "My name is KISHOREKUMAR A. As a dedicated and enthusiastic programmer, I'm driven by a passion for technology and a love for self-directed learning. I excel in mastering new technologies and solving complex problems. With a broad interest in web application development, I am committed to making the web more accessible. I am open to job opportunities that align with my skills and interests.",
   email: 'kishorekumar150404@gmail.com',
   phone: '8838582534',
   address: 'Kulithalai , Karur ,TamilNadu',
