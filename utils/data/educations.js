@@ -7,7 +7,7 @@ export const educations = [
   },
   {
     id: 2,
-    title: "12th Grade",
+    title: "11th & 12th Grade",
     duration: "2018 - 2021",
     institution: "Sowdambikaa Matric Higher Secondary School , Thuraiyur",
   },
