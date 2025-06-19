@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "B.E - Computer science and engineering ",
-    duration: "2021 - Present",
+    duration: "2021 - 2025",
     institution: "Sona college of Technology , Salem",
   },
   {
