@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import { FaArrowRight } from "react-icons/fa";
-import blogs from "@/utils/data/blogs";
-import BlogCard from "./BlogCard";
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { FaArrowRight } from 'react-icons/fa';
+import blogs from '@/utils/data/blogs';
+import BlogCard from './BlogCard';
 
 function Blog() {
   const [cardCount, setCardCount] = useState(4);
@@ -44,7 +45,7 @@ function Blog() {
     <div
       id="blogs"
       ref={topRef}
-      className="relative z-50 my-12 lg:my-24"
+      className="relative z-50 my-12 lg:my-24 "
     >
       {/* ===== TITLE (NO LINE ABOVE) ===== */}
       <div className="flex justify-center my-5 lg:py-8">
