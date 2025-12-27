@@ -11,7 +11,7 @@ function BlogPage() {
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl font-roboto-mono rounded-md 
             sm:text-lg md:text-xl lg:text-2xl 
             sm:whitespace-normal lg:whitespace-nowrap">
-            All Certification
+            Certifications
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
