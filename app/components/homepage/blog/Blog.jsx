@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from "react";
+import { FaArrowRight } from "react-icons/fa";
 import Link from 'next/link';
-import { FaArrowRight } from 'react-icons/fa';
-import blogs from '@/utils/data/blogs';
-import BlogCard from './BlogCard';
+import blogs from "@/utils/data/blogs";
+import BlogCard from "./BlogCard";
 
 function Blog() {
   const [cardCount, setCardCount] = useState(4);
@@ -45,7 +45,7 @@ function Blog() {
     <div
       id="blogs"
       ref={topRef}
-      className="relative z-50 my-12 lg:my-24 "
+      className="relative z-50 my-12 lg:my-24"
     >
       {/* ===== TITLE (NO LINE ABOVE) ===== */}
       <div className="flex justify-center my-5 lg:py-8">
@@ -56,7 +56,7 @@ function Blog() {
               sm:text-lg md:text-xl lg:text-2xl
               sm:whitespace-normal lg:whitespace-nowrap"
           >
-            Certifications
+          Certifications
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]" />
         </div>
